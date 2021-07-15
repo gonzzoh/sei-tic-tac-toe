@@ -1,0 +1,54 @@
+Tic Tac Toe
+USER STORIES
+Draw a board
+    - 3 x 3 grid
+Two players, X and O
+X placed in one of the squares
+O placed in one of the open squares
+Continue alternating placing X's and O's in the remaining squares
+Once a square has a letter in it, it can't be changed and cannot have another letter added to it (square is "unavailable")
+If a player connects three squares horizontally, vertically, or diagonally with the same letter, that player wins and the game is over
+Once game is over, no remaining squares can be filled with X or O
+WIREFRAMES
+3 x 3 grid
+MINIMUM VIABLE PRODUCT or "MVP"
+Where from here?
+- Draw a grid
+    - CSS
+        - grid
+        - flexbox
+    - HTML
+        - semantic tags
+- What are the X's and O's going to be? 
+    - CSS? 
+    - HTML inner-text?
+ {
+    visibility: hidden;
+    display: none;
+}
+<button>O</button>
+button {
+    inner-text: ;
+}
+How do they fill a square?
+    - Javascript
+        - Event Listener when a square is clicked
+How to start game?
+    - Javascript
+        - newGame function has a counter of how many executed clicks have been made on the board
+How to keep a square from being changed once it is filled with an X or O?
+    - Javascript
+        - Conditionals. Here are a few possibilities: 
+            - "if square is filled, remove it from the list of available squares"
+            - nesting event listener inside of a conditional 
+            - an array of available squares, and removing a square from the array once it is filled
+How to alternate turns?
+    - Javascript
+        - i.e. X goes on odd numbered turns, O goes on even numbered turns
+        - Modulus operator (%)
+        - How to define a turn?
+            - for loop?
+How to know when the game is over?
+    - Javascript
+        - A conditional will define what are the winning conditions and then determine if a "winning condition" has been achieved
+        - If no winning condition is reached, if/else will declare a tie

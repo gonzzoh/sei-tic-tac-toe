@@ -1,0 +1,87 @@
+h1 {
+    color: white;
+    /* font-family: IceCreamParty, IceCreamPartySolid; */
+    text-align: center;
+};
+
+h4 {
+    color:yellowgreen
+};
+
+p {
+    color:khaki
+};
+
+body{
+    background-image: url("./images/Click_Chad_Ohh.png");
+    text-align: center;
+};
+
+button {
+    display:flex;
+    align-items: center;
+    height: 35px;
+    border: 5px solid greenyellow;
+    background-color:whitesmoke
+};
+
+.box:hover {
+    background-color: plum;
+    max-height: 30%;
+    max-width: 30%;
+    height: 200px;
+    width: 200px;
+};
+.box {
+    max-height: 30%;
+    max-width: 30%;
+    height: 200px;
+    width: 200px;
+};
+
+.container-a{
+    display: flex;
+    justify-content: space-around;
+};
+.container-a div{
+    border: 10px grey solid;
+    padding: 11px;
+};
+
+
+.container-b {
+    display:flex;
+    justify-content: space-around;
+};
+.container-b div{
+    border: 10px grey solid;
+    padding: 11px;
+};
+
+.container-c {
+    display:flex;
+    justify-content: space-around;
+};
+.container-c div{
+    border: 10px grey solid;
+    padding: 11px;
+};
+
+
+
+
+/* @font-face {
+    font-family: 'IceCreamParty';
+    src: url('IceCreamParty.eot');
+    src: url('IceCreamParty.eot?#iefix') format('embedded-opentype'),
+        url('IceCreamParty.woff2') format('woff2'),
+        url('IceCreamParty.woff') format('woff'),
+        url('IceCreamParty.ttf') format('truetype'),
+        url('IceCreamParty.svg#IceCreamParty') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} */
+
+
+

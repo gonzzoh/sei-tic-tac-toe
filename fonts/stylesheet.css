@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'IceCreamPartySolid';
+    src: url('IceCreamPartySolid.eot');
+    src: url('IceCreamPartySolid.eot?#iefix') format('embedded-opentype'),
+        url('IceCreamPartySolid.woff2') format('woff2'),
+        url('IceCreamPartySolid.woff') format('woff'),
+        url('IceCreamPartySolid.ttf') format('truetype'),
+        url('IceCreamPartySolid.svg#IceCreamPartySolid') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IceCreamParty';
+    src: url('IceCreamParty.eot');
+    src: url('IceCreamParty.eot?#iefix') format('embedded-opentype'),
+        url('IceCreamParty.woff2') format('woff2'),
+        url('IceCreamParty.woff') format('woff'),
+        url('IceCreamParty.ttf') format('truetype'),
+        url('IceCreamParty.svg#IceCreamParty') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
